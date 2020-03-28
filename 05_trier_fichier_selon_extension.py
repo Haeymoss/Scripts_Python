@@ -1,3 +1,5 @@
+#Trier des fichiers en fonction de leur extension
+
 import os
 from glob import glob #=> obtenir la liste de l'arborescence de tous les fichier
 import shutil #=> module permettant de déplacer les fichiers
