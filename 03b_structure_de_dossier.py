@@ -19,4 +19,4 @@ d = {"Films": ["Le seigneur des anneaux", #=> exemples de dictionnaires à itér
 for key, value in d.items():
     for dossier in value:
         chemin_dossier = os.path.join(chemin, key, dossier)
-        os.makedirs(chemin_dossier, exist_ok=True)
+        os.makedirs(chemin_dossier, exist_ok=True) #=> genere la création des dossiers nécessaires selon la jointure de la ligne précédente.
