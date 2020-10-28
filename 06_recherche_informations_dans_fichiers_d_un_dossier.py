@@ -4,8 +4,8 @@
 import json
 import glob #=> module glob
 
-dossier = "arborescence_source_du_dossier"
-files = glob.glob(dossier, recursive=True) #=> fonction récursive permettant de récupérer la liste de l'arborescence de chaque fichier. L'asterix (joker) va permettre de recupérer tous les fichier présent sans avoir à préciser une extension
+dossier = "arborescence_source_du_dossier**"
+files = glob.glob(dossier, recursive=True) #=> fonction récursive permettant de récupérer la liste de l'arborescence de chaque fichier. L'asterix (**joker) va permettre de recupérer tous les fichier présent sans avoir à préciser une extension
 
 numero_de_compte = None #=> Initialise les 2 variables identifié comme point de départ départ "None".
 numero_securite_sociale = None
